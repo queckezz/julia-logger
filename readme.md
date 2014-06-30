@@ -13,13 +13,15 @@ julia >Pkg.clone("queckezz/julia-logger")
 
 ```julia
 # import
-import Logger
+import Logger:
+  Log,
+  log
 
 # create a new Log type
-warn = Logger.Log("warn", "red")
+warn = Log("warn", "red")
 
 # use it
-Logger.log(warn, "a message")
+log(warn, "a message")
 ```
 
 ### Notes
