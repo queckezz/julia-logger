@@ -18,10 +18,10 @@ import Logger:
   log
 
 # create a new Log type
-warn = Log("warn", "red")
+warn = Log("error", "red")
 
 # use it
-log(warn, "a message")
+log(error, "a message")
 ```
 
 ### Notes
@@ -32,4 +32,4 @@ Im just exploring Julia and trying to learn functional programming, as its one o
 
 ### Licence
 
-The [MIT](http://opensource.org/licenses/MIT) License &copy; 2014, Fabian Eichenberge
+The [MIT](http://opensource.org/licenses/MIT) License &copy; 2014, Fabian Eichenberger
