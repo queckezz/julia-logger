@@ -19,7 +19,7 @@ import Logger
 warn = Logger.Log("warn", "red")
 
 # use it
-Logger.log("warn", "a message")
+Logger.log(warn, "a message")
 ```
 
 ### Notes
