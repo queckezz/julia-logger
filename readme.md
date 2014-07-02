@@ -18,10 +18,10 @@ import Logger:
   log
 
 # create a new Log type
-warn = Log("error", "red")
+warn = Log("warn", "orange")
 
 # use it
-log(error, "a message")
+log(warn, "a message")
 ```
 
 ### Notes
